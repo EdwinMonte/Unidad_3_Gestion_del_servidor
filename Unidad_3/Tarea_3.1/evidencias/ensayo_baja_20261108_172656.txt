@@ -1,0 +1,15 @@
+ENSAYO DE ALTA Y BAJA - UNIDAD 3.1
+2026-11-08T17:26:56+00:00
+CREADO: ope99 | Grupo: operaciones | Vence: 2026-11-09
+Archivo privado de claves temporales: /root/unidad3/credenciales.VJAA4t
+uid=1004(ope99) gid=1007(ope99) groups=1007(ope99),1005(operaciones)
+drwx------ 2 ope99 ope99 4096 Nov  8 17:26 /home/ope99
+BAJA VERIFICADA: ope99
+Respaldo y archivos conservados en: /root/unidad3/bajas/ope99.JvBpxApf
+OK: ope99 ya no existe y su home fue retirado del directorio /home.
+COMPROBACION DE CUENTAS BASE
+uid=1001(sis01) gid=1002(sis01) groups=1002(sis01),1001(sistemas)
+uid=1002(fin01) gid=1004(fin01) groups=1004(fin01),1003(finanzas)
+uid=1003(ope01) gid=1006(ope01) groups=1006(ope01),1005(operaciones)
+ENSAYO TERMINADO CORRECTAMENTE
+Evidencia: /home/edwinmonte/Unidad_3/Tarea_3.1/evidencias/ensayo_baja_20261108_172656.txt

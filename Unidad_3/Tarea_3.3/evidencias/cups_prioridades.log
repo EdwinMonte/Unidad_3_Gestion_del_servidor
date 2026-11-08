@@ -1,0 +1,118 @@
+D [08/Nov/2026:19:01:40 +0000] [Job 2] Loading from cache...
+D [08/Nov/2026:19:01:40 +0000] [Job 2] Loading attributes...
+D [08/Nov/2026:19:01:40 +0000] [Job 3] Loading from cache...
+D [08/Nov/2026:19:01:40 +0000] [Job 3] Loading attributes...
+D [08/Nov/2026:19:08:05 +0000] [Job 2] Setting job-hold-until to no-hold
+I [08/Nov/2026:19:08:05 +0000] [Job 2] Job released by user.
+D [08/Nov/2026:19:08:05 +0000] [Job 3] Setting job-hold-until to no-hold
+I [08/Nov/2026:19:08:05 +0000] [Job 3] Job released by user.
+D [08/Nov/2026:19:08:05 +0000] [Job 3] time-at-processing=1794164885
+D [08/Nov/2026:19:08:05 +0000] [Job 3] 2 filters for job:
+D [08/Nov/2026:19:08:05 +0000] [Job 3] pstops (application/postscript to application/vnd.cups-postscript, cost 66)
+D [08/Nov/2026:19:08:05 +0000] [Job 3] - (application/vnd.cups-postscript to printer/U3_PDF, cost 0)
+D [08/Nov/2026:19:08:05 +0000] [Job 3] job-sheets=none,none
+D [08/Nov/2026:19:08:05 +0000] [Job 3] argv[0]="U3_PDF"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] argv[1]="3"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] argv[2]="edwinmonte"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] argv[3]="Prioridad_alta"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] argv[4]="1"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] argv[5]="job-uuid=urn:uuid:de930171-ffd6-3c71-4adb-8c477788f7e0 job-originating-host-name=192.168.246.1 date-time-at-creation= date-time-at-processing= time-at-creation=1794164162 time-at-processing=1794164885"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] argv[6]="/var/spool/cups/d00003-001"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[0]="CUPS_CACHEDIR=/var/cache/cups"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[1]="CUPS_DATADIR=/usr/share/cups"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[2]="CUPS_DOCROOT=/usr/share/cups/doc-root"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[3]="CUPS_REQUESTROOT=/var/spool/cups"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[4]="CUPS_SERVERBIN=/usr/lib/cups"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[5]="CUPS_SERVERROOT=/etc/cups"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[6]="CUPS_STATEDIR=/run/cups"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[7]="HOME=/var/spool/cups/tmp"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[8]="PATH=/usr/lib/cups/filter:/usr/bin:/usr/sbin:/bin:/usr/bin"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[9]="SERVER_ADMIN=root@ubuntu"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[10]="SOFTWARE=CUPS/2.4.16"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[11]="TMPDIR=/var/spool/cups/tmp"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[12]="USER=root"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[13]="CUPS_MAX_MESSAGE=2047"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[14]="CUPS_SERVER=/run/cups/cups.sock"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[15]="CUPS_ENCRYPTION=IfRequested"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[16]="IPP_PORT=631"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[17]="CHARSET=utf-8"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[18]="LANG=en.UTF-8"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[19]="PPD=/etc/cups/ppd/U3_PDF.ppd"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[20]="CONTENT_TYPE=application/postscript"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[21]="DEVICE_URI=cups-pdf:/"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[22]="PRINTER_INFO=U3_PDF"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[23]="PRINTER_LOCATION="
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[24]="PRINTER=U3_PDF"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[25]="PRINTER_STATE_REASONS=none"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[26]="CUPS_FILETYPE=document"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[27]="FINAL_CONTENT_TYPE=application/vnd.cups-postscript"
+D [08/Nov/2026:19:08:05 +0000] [Job 3] envp[28]="AUTH_I****"
+I [08/Nov/2026:19:08:05 +0000] [Job 3] Started filter /usr/lib/cups/filter/pstops (PID 12020)
+I [08/Nov/2026:19:08:05 +0000] [Job 3] Started backend /usr/lib/cups/backend/cups-pdf (PID 12021)
+D [08/Nov/2026:19:08:05 +0000] [Job 3] Page = 595x842; 0,0 to 595,842
+D [08/Nov/2026:19:08:05 +0000] [Job 3] slow_collate=0, slow_duplex=0, slow_order=0
+D [08/Nov/2026:19:08:05 +0000] [Job 3] This document does not conform to the Adobe Document Structuring Conventions and may not print correctly.
+D [08/Nov/2026:19:08:05 +0000] [Job 3] PAGE: 1 1
+D [08/Nov/2026:19:08:05 +0000] [Job 3] PID 12020 (/usr/lib/cups/filter/pstops) exited with no errors.
+D [08/Nov/2026:19:08:06 +0000] [Job 3] PID 12021 (/usr/lib/cups/backend/cups-pdf) exited with no errors.
+D [08/Nov/2026:19:08:06 +0000] [Job 3] time-at-completed=1794164886
+I [08/Nov/2026:19:08:06 +0000] [Job 3] Job completed.
+D [08/Nov/2026:19:08:06 +0000] [Job 2] time-at-processing=1794164886
+D [08/Nov/2026:19:08:06 +0000] [Job 2] 2 filters for job:
+D [08/Nov/2026:19:08:06 +0000] [Job 2] pstops (application/postscript to application/vnd.cups-postscript, cost 66)
+D [08/Nov/2026:19:08:06 +0000] [Job 2] - (application/vnd.cups-postscript to printer/U3_PDF, cost 0)
+D [08/Nov/2026:19:08:06 +0000] [Job 2] job-sheets=none,none
+D [08/Nov/2026:19:08:06 +0000] [Job 2] argv[0]="U3_PDF"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] argv[1]="2"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] argv[2]="edwinmonte"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] argv[3]="Prioridad_baja"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] argv[4]="1"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] argv[5]="job-uuid=urn:uuid:dded8808-5871-3ec0-505a-ef58d47fffba job-originating-host-name=192.168.246.1 date-time-at-creation= date-time-at-processing= time-at-creation=1794164162 time-at-processing=1794164886"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] argv[6]="/var/spool/cups/d00002-001"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[0]="CUPS_CACHEDIR=/var/cache/cups"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[1]="CUPS_DATADIR=/usr/share/cups"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[2]="CUPS_DOCROOT=/usr/share/cups/doc-root"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[3]="CUPS_REQUESTROOT=/var/spool/cups"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[4]="CUPS_SERVERBIN=/usr/lib/cups"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[5]="CUPS_SERVERROOT=/etc/cups"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[6]="CUPS_STATEDIR=/run/cups"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[7]="HOME=/var/spool/cups/tmp"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[8]="PATH=/usr/lib/cups/filter:/usr/bin:/usr/sbin:/bin:/usr/bin"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[9]="SERVER_ADMIN=root@ubuntu"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[10]="SOFTWARE=CUPS/2.4.16"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[11]="TMPDIR=/var/spool/cups/tmp"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[12]="USER=root"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[13]="CUPS_MAX_MESSAGE=2047"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[14]="CUPS_SERVER=/run/cups/cups.sock"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[15]="CUPS_ENCRYPTION=IfRequested"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[16]="IPP_PORT=631"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[17]="CHARSET=utf-8"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[18]="LANG=en.UTF-8"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[19]="PPD=/etc/cups/ppd/U3_PDF.ppd"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[20]="CONTENT_TYPE=application/postscript"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[21]="DEVICE_URI=cups-pdf:/"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[22]="PRINTER_INFO=U3_PDF"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[23]="PRINTER_LOCATION="
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[24]="PRINTER=U3_PDF"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[25]="PRINTER_STATE_REASONS=none"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[26]="CUPS_FILETYPE=document"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[27]="FINAL_CONTENT_TYPE=application/vnd.cups-postscript"
+D [08/Nov/2026:19:08:06 +0000] [Job 2] envp[28]="AUTH_I****"
+I [08/Nov/2026:19:08:06 +0000] [Job 2] Started filter /usr/lib/cups/filter/pstops (PID 12027)
+I [08/Nov/2026:19:08:06 +0000] [Job 2] Started backend /usr/lib/cups/backend/cups-pdf (PID 12028)
+D [08/Nov/2026:19:08:06 +0000] [Job 2] Page = 595x842; 0,0 to 595,842
+D [08/Nov/2026:19:08:06 +0000] [Job 2] slow_collate=0, slow_duplex=0, slow_order=0
+D [08/Nov/2026:19:08:06 +0000] [Job 2] This document does not conform to the Adobe Document Structuring Conventions and may not print correctly.
+D [08/Nov/2026:19:08:06 +0000] [Job 2] PAGE: 1 1
+D [08/Nov/2026:19:08:06 +0000] [Job 2] PID 12027 (/usr/lib/cups/filter/pstops) exited with no errors.
+D [08/Nov/2026:19:08:06 +0000] [Job 2] PID 12028 (/usr/lib/cups/backend/cups-pdf) exited with no errors.
+D [08/Nov/2026:19:08:06 +0000] [Job 2] time-at-completed=1794164886
+I [08/Nov/2026:19:08:06 +0000] [Job 2] Job completed.
+D [08/Nov/2026:19:08:07 +0000] [Job 2] Unloading...
+D [08/Nov/2026:19:08:07 +0000] [Job 3] Unloading...
+D [08/Nov/2026:19:09:46 +0000] [Job 2] Loading attributes...
+D [08/Nov/2026:19:09:46 +0000] [Job 3] Loading attributes...
+D [08/Nov/2026:19:11:11 +0000] [Job 2] Unloading...
+D [08/Nov/2026:19:11:11 +0000] [Job 3] Unloading...
+D [08/Nov/2026:19:11:11 +0000] [Job 2] Loading attributes...
+D [08/Nov/2026:19:11:11 +0000] [Job 3] Loading attributes...

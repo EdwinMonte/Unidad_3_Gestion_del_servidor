@@ -1,0 +1,51 @@
+Inicio: 2026-11-08T18:20:33+00:00
+ESTADO DE PERMISOS Y CUOTAS
+drwxrwxrwt  2 root root        4096 Nov  8 18:17 /srv/unidad3/comun
+drwxrws---  2 root finanzas    4096 Nov  8 18:17 /srv/unidad3/finanzas
+drwxrws---+ 2 root operaciones 4096 Nov  8 18:17 /srv/unidad3/operaciones
+drwxrws---  2 root sistemas    4096 Nov  8 18:17 /srv/unidad3/sistemas
+# file: /srv/unidad3/operaciones
+# owner: root
+# group: operaciones
+# flags: -s-
+user::rwx
+group::rwx
+group:finanzas:r-x
+mask::rwx
+other::---
+default:user::rwx
+default:group::rwx
+default:group:finanzas:r-x
+default:mask::rwx
+default:other::---
+
+repquota: Cannot stat() mounted device tmpfs: No such file or directory
+repquota: Cannot stat() mounted device tmpfs: No such file or directory
+repquota: Cannot stat() mounted device tmpfs: No such file or directory
+repquota: Cannot stat() mounted device tmpfs: No such file or directory
+*** Report for user quotas on device /dev/sdb
+Block grace time: 7days; Inode grace time: 7days
+                        Block limits                File limits
+User            used    soft    hard  grace    used  soft  hard  grace
+----------------------------------------------------------------------
+root      --    2084       0       0              7     0     0       
+
+
+*** Report for group quotas on device /dev/sdb
+Block grace time: 7days; Inode grace time: 7days
+                        Block limits                File limits
+Group           used    soft    hard  grace    used  soft  hard  grace
+----------------------------------------------------------------------
+root      --    2072       0       0              4     0     0       
+sistemas  --       4       0       0              1     0     0       
+finanzas  --       4   61440   81920              1     0     0       
+operaciones --       4       0       0              1     0     0       
+
+
+PRUEBA SGID Y ACL
+Archivo: /srv/unidad3/operaciones/acl_prueba.txt Propietario: ope01 Grupo: operaciones
+Lectura autorizada para Finanzas.
+sh: 1: cannot create /srv/unidad3/operaciones/acl_prueba.txt: Permission denied
+OK: Finanzas lee, pero no modifica el archivo de Operaciones.
+PRUEBA STICKY BIT
+rm: remove write-protected regular file '/srv/unidad3/comun/sticky_prueba.txt'? ERROR: Operaciones borró un archivo ajeno.

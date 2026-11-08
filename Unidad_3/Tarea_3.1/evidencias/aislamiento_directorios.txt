@@ -1,0 +1,11 @@
+PRUEBA 1: Finanzas puede consultar su propia carpeta
+total 20
+drwx------ 2 fin01 fin01 4096 Nov  8 02:49 .
+drwxr-xr-x 6 root  root  4096 Nov  8 02:49 ..
+-rw-r--r-- 1 fin01 fin01  220 Feb 13  2026 .bash_logout
+-rw-r--r-- 1 fin01 fin01 3771 Feb 13  2026 .bashrc
+-rw-r--r-- 1 fin01 fin01  807 Feb 13  2026 .profile
+PRUEBA 2: Finanzas no puede consultar la carpeta de Sistemas
+ls: no se puede abrir el directorio '/home/sis01': Permiso denegado
+PRUEBA 3: Operaciones no puede consultar la carpeta de Finanzas
+ls: no se puede abrir el directorio '/home/fin01': Permiso denegado

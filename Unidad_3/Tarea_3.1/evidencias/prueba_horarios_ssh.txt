@@ -1,0 +1,4 @@
+nov 08 03:49:27 ubuntu sshd-session[16916]: Accepted password for fin01 from 127.0.0.1 port 39580 ssh2
+nov 08 03:49:27 ubuntu sshd-session[16916]: pam_unix(sshd:session): session opened for user fin01(uid=1002) by fin01(uid=0)
+nov 08 03:50:43 ubuntu sshd-session[17076]: Failed password for fin01 from 127.0.0.1 port 47674 ssh2
+nov 08 03:50:43 ubuntu sshd-session[17076]: fatal: Access denied for user fin01 by PAM account configuration [preauth]

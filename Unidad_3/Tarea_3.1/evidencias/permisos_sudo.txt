@@ -1,0 +1,5 @@
+PERMISOS DE SISTEMAS
+User sis01 may run the following commands on ubuntu:
+    (root) /usr/bin/systemctl --no-pager status ssh.service
+PERMISOS DE FINANZAS
+User fin01 is not allowed to run sudo on ubuntu.

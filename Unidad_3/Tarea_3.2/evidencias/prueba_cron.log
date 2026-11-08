@@ -1,0 +1,9 @@
+Ejecucion calendarizada iniciada: 2026-11-08T18:28:02+00:00
+Inicio: 2026-11-08T18:28:02+00:00
+Origen: /srv/unidad3 (/dev/sdb)
+Destino: /mnt/unidad3_respaldos (/dev/sdc)
+Tipo: completo
+Archivo: /mnt/unidad3_respaldos/unidad3/archivos/completo_20261108_182802_097549334.tar.gz
+Verificación: archivo legible y SHA-256 generado.
+Fin: 2026-11-08T18:28:02+00:00
+CRON_RESPALDO_VERIFICADO: 2026-11-08T18:28:02+00:00

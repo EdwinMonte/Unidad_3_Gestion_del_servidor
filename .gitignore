@@ -1,0 +1,10 @@
+# Credenciales y archivos privados
+**/credenciales.*
+**/samba.credentials
+**/id_ed25519*
+**/*.pem
+**/.env
+**/__pycache__/
+*.vdi
+*.vmdk
+*.iso

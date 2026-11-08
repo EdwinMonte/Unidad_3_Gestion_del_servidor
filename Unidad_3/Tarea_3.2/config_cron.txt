@@ -1,0 +1,1 @@
+0 2 * * * root /bin/bash /home/edwinmonte/Unidad_3/Tarea_3.2/backup.sh

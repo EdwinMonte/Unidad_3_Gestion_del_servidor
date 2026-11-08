@@ -1,0 +1,16 @@
+nov 08 05:03:01 ubuntu sshd-session[17265]: Accepted password for edwinmonte from 127.0.0.1 port 47004 ssh2
+nov 08 05:03:01 ubuntu sshd-session[17265]: pam_unix(sshd:session): session opened for user edwinmonte(uid=1000) by edwinmonte(uid=0)
+nov 08 05:04:30 ubuntu sshd-session[17421]: Accepted password for fin01 from 127.0.0.1 port 39114 ssh2
+nov 08 05:04:30 ubuntu sshd-session[17421]: pam_unix(sshd:session): session opened for user fin01(uid=1002) by fin01(uid=0)
+nov 08 05:07:14 ubuntu sshd-session[17560]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=fin01
+nov 08 05:07:16 ubuntu sshd-session[17560]: Failed password for fin01 from 127.0.0.1 port 58040 ssh2
+nov 08 05:07:17 ubuntu sshd-session[17560]: Connection closed by authenticating user fin01 127.0.0.1 port 58040 [preauth]
+nov 08 05:07:52 ubuntu sshd-session[17568]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=fin01
+nov 08 05:07:55 ubuntu sshd-session[17568]: Failed password for fin01 from 127.0.0.1 port 41872 ssh2
+nov 08 05:07:58 ubuntu sshd-session[17568]: Connection closed by authenticating user fin01 127.0.0.1 port 41872 [preauth]
+nov 08 05:08:06 ubuntu sshd-session[17579]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=fin01
+nov 08 05:08:06 ubuntu sshd-session[17579]: pam_faillock(sshd:auth): Consecutive login failures for user fin01 account temporarily locked
+nov 08 05:08:09 ubuntu sshd-session[17579]: Failed password for fin01 from 127.0.0.1 port 49296 ssh2
+nov 08 05:08:09 ubuntu sshd-session[17579]: Connection closed by authenticating user fin01 127.0.0.1 port 49296 [preauth]
+nov 08 05:09:00 ubuntu sshd-session[17595]: Failed password for fin01 from 127.0.0.1 port 56154 ssh2
+nov 08 05:09:01 ubuntu sshd-session[17595]: Connection closed by authenticating user fin01 127.0.0.1 port 56154 [preauth]

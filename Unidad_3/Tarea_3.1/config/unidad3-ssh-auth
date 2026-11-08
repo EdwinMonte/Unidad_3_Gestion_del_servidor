@@ -1,0 +1,13 @@
+# Las cuentas de practica saltan a la autenticacion con bloqueo.
+auth [success=2 default=ignore] pam_succeed_if.so quiet user in sis01:fin01:ope01
+
+# Las demas cuentas usan la autenticacion original de Ubuntu.
+auth substack common-auth
+auth [success=done default=die] pam_permit.so
+
+# Comprobar bloqueo, verificar clave y registrar el resultado.
+auth requisite pam_faillock.so preauth conf=/etc/security/faillock_unidad3.conf
+auth [success=1 default=bad] pam_unix.so
+auth [default=die] pam_faillock.so authfail conf=/etc/security/faillock_unidad3.conf
+auth sufficient pam_faillock.so authsucc conf=/etc/security/faillock_unidad3.conf
+auth required pam_deny.so
